@@ -134,7 +134,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 15pt;
 			}
 
 		}
@@ -142,7 +142,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -150,7 +150,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -194,7 +194,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
@@ -216,6 +216,8 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.25em;
+		display: block;
+		height: 3em;
 	}
 
 	h4 {
@@ -2224,6 +2226,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: none;
 		position: relative;
+		font-size: 3.25rem;
 	}
 
 		.icon:before {
@@ -2248,7 +2251,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
-			font-weight: 900;
+			font-weight: 600;
 		}
 
 		.icon.brands:before {
@@ -2266,10 +2269,10 @@ input, select, textarea {
 
 			.icon.major:before {
 				display: inline-block;
-				font-size: 6.25rem;
-				width: 2.25em;
-				height: 2.25em;
-				line-height: 2.2em;
+				font-size: 2.25rem;
+				width: 1.25em;
+				height: 1.25em;
+				line-height: 1.2em;
 				border-radius: 100%;
 				border: solid 1px;
 				text-align: center;
@@ -2283,7 +2286,7 @@ input, select, textarea {
 
 			.icon.alt:before {
 				display: block;
-				font-size: 1.25em;
+				font-size: 0.25em;
 				width: 2em;
 				height: 2em;
 				text-align: center;
@@ -3008,7 +3011,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				/* border-radius: 100%; */
-				width: 32em;
+				width: 22em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3094,26 +3097,26 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
+				/* -moz-transition: opacity 3s ease;
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;
 				transition: opacity 3s ease;
 				-moz-transition-delay: 0.5s;
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				transition-delay: 0.5s; */
 				opacity: 1;
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
+				/* -moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
 				transition: opacity 1.25s ease, transform 0.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
-				transition-delay: 0s;
+				transition-delay: 0s; */
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
