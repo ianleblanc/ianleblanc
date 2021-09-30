@@ -2816,6 +2816,11 @@ input, select, textarea {
 		list-style: none;
 	}
 
+	/* .features img {
+		width: 125px;
+		height: 125px;
+	} */
+
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
@@ -3304,6 +3309,10 @@ input, select, textarea {
 						box-shadow: none;
 					}
 
+					a.active {
+						font-weight: bolder;
+					}
+
 		#nav.alt {
 			position: fixed;
 			top: 0;
@@ -3586,6 +3595,13 @@ input, select, textarea {
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
+			
+		}
+
+		#main > .alt {
+			background-color: #f2f7f6;
+			border-left: solid 1px rgb(207, 207, 207);
+			border-right: solid 1px rgb(207, 207, 207);
 		}
 
 			#main > .main:first-child {
